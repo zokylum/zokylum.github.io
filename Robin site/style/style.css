@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+*:hover {
+    text-shadow: 3px 3px 4px #fff;
+}
+
+#flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    border-bottom: 2px solid ivory;
+    padding: 10px;
+    text-shadow: 3px 3px 6px black;
+}
+
+body {
+    background-color: #424242;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+footer {
+    margin: 250px auto;
+    text-align: center;
+    color: ghostwhite;
+    border-top: 2px solid ivory
+}
+
+h1 {
+    color: azure;
+    display: inline;
+    margin-left: 60px;
+    text-shadow: 3px 3px 4px #000;
+}
+
+h1:hover {
+    text-shadow: 3px 3px 4px #fff;
+}
+
+.buttons {
+    padding-left: 200px;
+}
+
+#mainLogo {
+    display: inline;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#cheeseburger {
+    color: azure;
+    display: inline;
+    text-shadow: 3px 3px 4px #000;
+    margin-top: 100px;
+}
+
+#flex-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#desc {
+    color: #fff;
+    margin-left: 470px;
+    margin-top: 400px;
+}
+
+p {
+    text-shadow: 3px 3px 5px #000;
+}
+
+#links {
+    text-align: center;
+    margin-bottom: -800px;
+    height: 200px;
+    width: 300px;
+    padding-left: -900px;
+}
+
+#switch {
+    cursor: pointer;
+}
+
+#switchy {
+    cursor: pointer;
+}
+
+#f {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px #000;
+    width: 375px;
+}
+
+h5 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000;
+}
+
+#bruh {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000;
+}
+
+.johns {
+    margin: 15px;
+    font-size: x-large;
+}
+
+#linkss {
+    color: aliceblue;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 300px;
+    font-size: x-large;
+}

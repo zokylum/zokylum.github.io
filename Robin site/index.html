@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link id="linkyBoah" rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./sources/unity.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"> 
+    <title>Main Menu</title>
+</head>
+<body>
+    <header>
+        <div id="flex-container">
+            <div>
+                <img src="./sources/unity.png">
+            </div>
+            <div class="buttons">
+                <a href="index.html" id="home">Home</a>
+            </div>
+            <div class="buttons">
+                <a href="devs.html" id="devs">Developers</a>
+            </div>
+            <div class="buttons">
+                <a href="contact.html" id="contact">Contact Us</a>
+            </div>
+            <div class="buttons">
+                <img id="switch" onclick="light()" src="./sources/sunny.png">
+                <img id="switchy" onclick="dark()" src="./sources/moon.png">
+            </div>
+        </div>
+    </header>
+    <main id="flex-box">
+        <div>
+            <img id="mainLogo" src="./sources/soft.png">
+        </div>
+        <div id="cheeseburger">
+            <h1>Soft War Studios</h1>
+        </div>
+        <div id="desc">
+            <p>We are a game development studio using <p> the Unity game engine to create </p> <p> various 2D and 3D games.</p>
+        </div>
+    </main>
+    <footer>
+        <p>All Copyrights Reserved SoftWarStudios Ⓒ</p>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
