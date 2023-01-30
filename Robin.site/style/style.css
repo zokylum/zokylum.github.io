@@ -30,7 +30,12 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
-
+immmg {
+    
+  width: 10%;
+  height: auto;
+}
+}
 footer {
     margin: 250px auto;
     text-align: center;
